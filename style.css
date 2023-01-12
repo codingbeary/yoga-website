@@ -51,15 +51,20 @@ button {
   border-radius: 7px;
   padding: 10px 15px;
   transition: all 150ms ease-in-out;
+  background: #3c4245;
 }
 
 button a {
   text-decoration: none;
+  color: white;
 }
 
 button:hover {
   background: #3c4245;
   cursor: pointer;
+}
+button a:visited {
+  color: white;
 }
 
 button a:hover {
