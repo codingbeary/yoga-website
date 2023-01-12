@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+h1,
+h2 {
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid brown;
+  font-size: 18px;
+  border-radius: 7px;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  background: brown;
+  cursor: pointer;
+}
+
+.theme-button {
+  font-size: 12px;
+  background: black;
+  color: white;
+  padding: 5px 8px;
+}
+.theme-button:hover {
+  color: black;
+  background-color: white;
+}
+.meditation-picture {
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.meditation-picture:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+.grid img:hover {
+  transform: scale(2);
+}
+.dark {
+  background: black;
+  color: white;
+}
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
