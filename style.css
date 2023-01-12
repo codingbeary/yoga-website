@@ -5,12 +5,26 @@ h1,
 h2 {
   text-align: center;
 }
+h1 {
+  font-size: 84px;
+  margin: 10px;
+}
+h2 {
+  opacity: 70%;
+  font-weight: lighter;
+  font-size: 18px;
+}
 .container {
   max-width: 800px;
   background-color: white;
   padding: 30px;
   border-radius: 10px;
   margin: 20px auto;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  margin-bottom: 20px;
 }
 img {
   max-width: 100%;
@@ -24,7 +38,7 @@ p {
 button {
   display: block;
   margin: 0 auto;
-  border: 1px solid brown;
+  border: 1px solid #392f2f;
   font-size: 18px;
   border-radius: 7px;
   padding: 10px 15px;
@@ -38,20 +52,21 @@ button:hover {
 
 .theme-button {
   font-size: 12px;
-  background: black;
+  background: #3c4245;
   color: white;
-  padding: 5px 8px;
+  padding: 10px 15px;
+  margin-top: 30px;
 }
 .theme-button:hover {
   color: black;
   background-color: white;
 }
-.meditation-picture {
+.yogi-picture {
   border-radius: 10px;
   transition: all 150ms ease-in-out;
 }
 
-.meditation-picture:hover {
+.yogi-picture:hover {
   transform: scale(1.2);
 }
 
